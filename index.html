@@ -1,227 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Developer Portfolio</title>
-
-  <!-- Bootstrap CSS CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Font Awesome CDN -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<h1>Hi, I'm Naveen</h1>
+<p class="subtitle">
+ASP.NET Core Developer | REST APIs | Backend & Web Applications
+</p>
 
 
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
 
-  <style>
-    *{
-    font-family: sans-serif;
-}
-    body {
-      scroll-behavior: smooth;
-      background-image: url('naveen.jpg');
-      background-size: cover;
-    }
+  <div class="skills-grid">
 
-
-.hero .me2 img{
-  width: 6%;
-  border-radius: 50%;
-  margin-top: -50px;
-}
-
-
-.skills .bg-light py-5{
-  background-image: 'pp.jpg';
-}
-
-    
-    .hero {
-      background-color: #f8f9fa;
-      padding: 60px 0;
-      text-align: center;
-      background-image: url('naveen.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-
-      
-    }
-    .hero h1 {
-      font-size: 3rem;
-    }
-    .section-title {
-      margin-bottom: 30px;
-      font-weight: bold;
-    }
-    .card:hover {
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-    .footer
-    {
-
-      background-color:black;
-  
-    }
-    .mb-0{
-      color: white;
-    }
-  </style>
-  <script src="mail.js"></script>
-
-
-
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "HuL7cJ1gm05y5atje",
-      });
-   })();
-</script>
-
-</head>
-<body>
-
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"style="color:white;"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    <div class="skill-card">
+      <h3>Backend & APIs</h3>
+      <ul>
+        <li>C#</li>
+        <li>ASP.NET Core</li>
+        <li>RESTful APIs</li>
+        <li>Dependency Injection</li>
+        <li>Middleware</li>
+        <li>LINQ</li>
+        <li>Swagger</li>
       </ul>
     </div>
-  </div>
-</nav>
 
-<!-- Hero Section -->
-<section class="hero" id="home">
-  <div class="me2"><img src="nnnn.jpg"></div>
-  <div class="container">
-    <h1 style="color: white;">Hi, I'm Naveen</h1>
-    <p style="color: white;">Future Developer | Web Enthusiast | Tech Lover</p>
-    <a href="#contact" class="btn btn-primary mt-3">Contact Me</a>
-  </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="py-5" style="background-color: black;">
-  <div class="container">
-    <h2 class="section-title text-center"style="color:white;">About Me</h2>
-    <p class="text-center"style="color:white;">Hi, I’m a developer from Kochi passionate about building fast, intuitive user experiences. I specialize in Angular, and one of my flagship projects is a fully-designed front-end e-commerce platform that reflects the design quality and functionality of modern enterprise-level shopping sites.
-
-I also co-created an autonomous thermal-vision camera system for disaster-response drones. With AI-based detection for humans and animals, it was designed to help locate trapped individuals during floods, fires, and collapsed structures.
-
-My technical stack includes C, C++, Python, C#, SQL, JavaScript, HTML/CSS, and Unity game development. I’m currently advancing my .NET backend skills to become a full-stack engineer. Before tech, I worked with Amazon North America, strengthening my communication and problem-solving abilities.
-
-When I’m not coding, I’m on a football field, competing as a gamer, or cultivating plants.</p>
-  </div>
-</section>
-
-<!-- Skills Section -->
-<section id="skills" class="bg-light py-5">
-  <div class="container">
-    <h2 class="section-title text-center">Skills</h2>
-    <div class="row text-center">
-      <div class="col-md-3 col-6 mb-3">
-        <i class="fab fa-js fa-2x"></i><p>JavaScript</p>
-      </div>
-      <div class="col-md-3 col-6 mb-3">
-        <i class="fa-brands fa-html5 fa-2x"></i><p>HTML</p>
-      </div>
-      <div class="col-md-3 col-6 mb-3">
-        <i class="fa-brands fa-python fa-2x"></i><p>Python</p>
-      </div>
-      <div class="col-md-3 col-6 mb-3">
-        <i class="fa-solid fa-c fa-2x"></i><p>C++</p>
-      </div>
+    <div class="skill-card">
+      <h3>Frontend</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+      </ul>
     </div>
-  </div>
-</section>
 
-<!-- Projects Section -->
-<section id="projects" class="py-5">
-  <div class="container">
-    <h2 class="section-title text-center" style="color: white;">Projects</h2>
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Portfolio Website</h5>
-            <p class="card-text">A personal website to showcase my work and skills using HTML, CSS, and Bootstrap.</p>
-            <a href="#" ><button class="btn btn-outline-primary btn-sm">View Project</button></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Data Input Form</h5>
-            <p class="card-text">An input form for feeding user's personal info made with HTML</p>
-            <a href="form.html"><button class="btn btn-outline-primary btn-sm">View Project</button></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Clone Website</h5>
-            <p class="card-text">A clone website for the travel appilication EaseMyTrip using HTML CSS</p>
-            <a href="project.html"><button class="btn btn-outline-primary btn-sm">View Project</button></a>
-          </div>
-        </div>
-      </div>
+    <div class="skill-card">
+      <h3>Databases</h3>
+      <ul>
+        <li>SQL Server</li>
+        <li>MySQL</li>
+      </ul>
     </div>
-  </div>
-</section>
 
-<!-- Contact Section -->
-<section id="contact" class="bg-light py-5">
-  <div class="container">
-    <h2 class="section-title text-center">Contact Me</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form>
-          <div class="mb-3">
-            <label class="form-label">Name</label>
-            <input type="text" class="form-control" placeholder="Your Name" id="yourName">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Email</label>
-            <input type="email" class="form-control" placeholder="Your Email" id="Email">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Message</label>
-            <textarea class="form-control" rows="4" placeholder="Your Message" id="message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary w-100" onclick="sendMail()">Send Message</button>
-        </form>
-      </div>
+    <div class="skill-card">
+      <h3>Tools & Practices</h3>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>Postman</li>
+        <li>Swagger UI</li>
+        <li>OOP & SOLID</li>
+      </ul>
     </div>
+
   </div>
 </section>
 
-<!-- Footer -->
-<footer class="footer">
-  <p class="mb-0">&copy; 2025 Navin. All rights reserved.
-
-
-    
+<div class="project-card">
+  <h3>Student Management REST API</h3>
+  <p>
+    RESTful Web API built using ASP.NET Core to manage student data.
+    Implemented Dependency Injection, LINQ-based filtering, custom middleware,
+    and versioned endpoints.
   </p>
-</footer>
+  <p><strong>Tech:</strong> ASP.NET Core, C#, LINQ, Swagger</p>
+  <a href="https://github.com/yourname/student-api" target="_blank">View Code</a>
+</div>
 
-<!-- Bootstrap JS CDN -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
-
-</html>
+<p>I’m open to internships and junior developer roles.</p>
