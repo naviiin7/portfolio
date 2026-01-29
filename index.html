@@ -1,68 +1,181 @@
-<h1>Hi, I'm Naveen</h1>
-<p class="subtitle">
-ASP.NET Core Developer | REST APIs | Backend & Web Applications
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Naveen – ASP.NET Core backend developer specializing in REST APIs, middleware, dependency injection, and scalable web applications.">
+<meta name="keywords" content="ASP.NET Core Developer, Backend Developer, REST API, C#, LINQ, Middleware">
+<meta name="author" content="Naveen">
 
+<meta property="og:title" content="Naveen | Backend Developer">
+<meta property="og:description" content="Backend developer specializing in ASP.NET Core, REST APIs, and scalable systems.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="profile.jpg">
 
-<section id="skills" class="skills-section">
-  <h2>Skills</h2>
+</head>
+<body>
 
-  <div class="skills-grid">
+  <!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Naveen</div>
 
-    <div class="skill-card">
-      <h3>Backend & APIs</h3>
-      <ul>
-        <li>C#</li>
-        <li>ASP.NET Core</li>
-        <li>RESTful APIs</li>
-        <li>Dependency Injection</li>
-        <li>Middleware</li>
-        <li>LINQ</li>
-        <li>Swagger</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h3>Frontend</h3>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Bootstrap</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h3>Databases</h3>
-      <ul>
-        <li>SQL Server</li>
-        <li>MySQL</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h3>Tools & Practices</h3>
-      <ul>
-        <li>Git & GitHub</li>
-        <li>Postman</li>
-        <li>Swagger UI</li>
-        <li>OOP & SOLID</li>
-      </ul>
-    </div>
-
+  <div class="hamburger" id="hamburger">
+    ☰
   </div>
-</section>
 
-<div class="project-card">
-  <h3>Student Management REST API</h3>
-  <p>
-    RESTful Web API built using ASP.NET Core to manage student data.
-    Implemented Dependency Injection, LINQ-based filtering, custom middleware,
-    and versioned endpoints.
-  </p>
-  <p><strong>Tech:</strong> ASP.NET Core, C#, LINQ, Swagger</p>
-  <a href="https://github.com/yourname/student-api" target="_blank">View Code</a>
-</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <button id="themeToggle" class="theme-toggle">🌙</button>
+</nav>
 
 
-<p>I’m open to internships and junior developer roles.</p>
+  <!-- HERO -->
+  <section class="hero">
+    <img src="profile.jpg" alt="Naveen" class="hero-img" />
+    <h1>Hi, I'm Naveen</h1>
+    <p class="hero-subtitle">
+      ASP.NET Core Developer • REST APIs • Backend Engineering
+    </p>
+    <a href="#contact" class="btn-primary">Contact Me</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section dark">
+    <h2>About Me</h2>
+    <p class="content">
+      I am a backend-focused developer specializing in building scalable and
+      maintainable RESTful APIs using <strong>ASP.NET Core</strong>.
+      I work extensively with <strong>Dependency Injection, LINQ, Middleware</strong>,
+      and clean architecture principles.
+    </p>
+    <p class="content">
+      I also have strong frontend fundamentals with HTML, CSS, JavaScript,
+      and Bootstrap, enabling me to collaborate effectively on full-stack systems.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section light">
+    <h2>Skills</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Backend & APIs</h3>
+        <ul>
+          <li>C#</li>
+          <li>ASP.NET Core</li>
+          <li>RESTful APIs</li>
+          <li>Dependency Injection</li>
+          <li>Middleware</li>
+          <li>LINQ</li>
+          <li>Swagger</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Databases</h3>
+        <ul>
+          <li>SQL Server</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Tools & Practices</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>Postman</li>
+          <li>Visual Studio</li>
+          <li>SOLID Principles</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section dark">
+    <h2>Projects</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Student Management REST API</h3>
+        <p>
+          RESTful API built using ASP.NET Core with in-memory data storage,
+          LINQ-based querying, dependency injection, custom middleware,
+          and API versioning.
+        </p>
+        <span class="tech">ASP.NET Core • C# • LINQ • Swagger</span>
+      </div>
+
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>
+          Fully responsive personal portfolio designed with clean UI,
+          accessibility, and performance in mind.
+        </p>
+        <span class="tech">HTML • CSS • Responsive Design</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section light">
+    <h2>Contact</h2>
+    <p class="content">Open to internships and junior backend roles.</p>
+
+    <div class="contact-links">
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="mailto:yourmail@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Naveen. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
+
+<script>
+  const toggle = document.getElementById("themeToggle");
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "light") {
+    document.body.classList.add("light");
+    toggle.textContent = "🌞";
+  }
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("light");
+    const isLight = document.body.classList.contains("light");
+    toggle.textContent = isLight ? "🌞" : "🌙";
+    localStorage.setItem("theme", isLight ? "light" : "dark");
+  });
+</script>
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("navLinks");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+  });
+</script>
